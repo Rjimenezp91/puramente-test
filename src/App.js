@@ -38,7 +38,7 @@ function App() {
   const continueStreak = () =>{
 
     if(dayDate === lastStreakDay){
-      return console.log('es el mismo dia');
+      return null;
     }
     if (currentDateFormated === formatedExpectedNextDate){
       return successSession();
